@@ -64,7 +64,11 @@ console.log(secondArray[3] [0]) --> 1  // pode extrair valores de nested arrays
 ### Object
 
 ```jsx
-const objectVariable = {prop1: 20, prop2: 50 }; --> Object {prop1: 20, prop2: 50 }  // o prop é a chave/ propriedade e depois vem o valor. Deve se separar as partes com uso da vírgula (,).
+const objectVariable = {prop1: 20, prop2: 50 }; --> Object {prop1: 20, prop2: 50 }  
+// o prop é a chave/ propriedade e depois vem o valor. Deve se separar as partes com uso da vírgula (,).
 
 ```
 ![Alt text](image.png)
+
+
+<mark style="background: lightgreen;"> hello </mark> hello
