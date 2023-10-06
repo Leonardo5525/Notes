@@ -30,12 +30,7 @@ Como escrever seu código, dicas de boas maneiras e padronização de código
 const oneVariable =  20; const TwoVariable = 20;  
 // Isso irá funcionar declarar várias variáveis na mesma linha. Uso do ponto e vírgula (;).
 
-<<<<<<< HEAD
 const oneVariable =  20 const TwoVariable = 20;  // Não irá funcionar pois não  sabe o final de primeira declaração.
-=======
-const oneVariable =  20 const TwoVariable = 20;  
-// Não irá funcionar pois não  sabe o final de primeira declaração.
->>>>>>> 66bb185b1fba14f3de5617f6ad44766072e9a1b6
 ```
 
 ### Typeof e console.log()
@@ -59,29 +54,17 @@ console.log("O número +variable+ e a frase +twoVariable+") --> "O número 10 e 
 ```jsx
 const firsArray = [10,20,30,40];  // array usa [  ]
 
-<<<<<<< HEAD
 const secondArray =  [10, 'a string', {prop: 'object'}, [1,2,3] ] // pode mistu-rar o tipo de os tipos de dados dentro de uma array
 
 console.log(firstArray[1])
 
 console.log(secondArray[3] [0]) --> 1  // pode extrair valores de nested arrays
-=======
-const secondArray =  [10, 'a string', {prop: 'object'}, [1,2,3] ] 
-// pode mistu-rar o tipo de os tipos de dados dentro de uma array
-
-
-console.log(firstArray[1])
-
-console.log(secondArray[3] [0]) --> 1  
-// pode extrair valores de nested arrays
->>>>>>> 66bb185b1fba14f3de5617f6ad44766072e9a1b6
 ```
 
 ### Object
 
 ```jsx
 const objectVariable = {prop1: 20, prop2: 50 }; --> Object {prop1: 20, prop2: 50 }  
-<<<<<<< HEAD
 // o prop é a chave/ propriedade e depois vem o valor. Deve se separar as partes com uso da vírgula (,).
 
 ```
@@ -89,9 +72,3 @@ const objectVariable = {prop1: 20, prop2: 50 }; --> Object {prop1: 20, prop2: 50
 
 
 <mark style="background: lightgreen;"> hello </mark> hello
-=======
-// o "prop" é a chave/ propriedade e depois vem o valor. Deve se separar as partes com uso da vírgula (,).
-// Objeto é igual a dicionário no python.
-```
-![Alt text](image.png)
->>>>>>> 66bb185b1fba14f3de5617f6ad44766072e9a1b6
