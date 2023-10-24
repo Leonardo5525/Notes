@@ -88,3 +88,22 @@ Link para ver as possíveis utilidades do `Date() Constructor` --> [https://deve
 <br>
 
 # Regular Expressions
+"
+A regular expression is a sequence of characters that forms a search pattern." <br>
+É basicamente um objeto que é usado para verificação/ condição para textos/ strings utilizando-se de caracteres para isso. Muito bom para ser utilizado em verificação, mas não somente isso.
+
+- Importante nessa aula aprender como utilizar, para que serve os símbolos e ler a documentação deles para saber o modo de uso.
+- Ex.: é a verificação se um e-mail adicionado no input e-mail, é um e-mail ou não.
+
+Caracteres do `regular expression`: `(RegExp)` <br>
+Oque fazem e representam (aula: 7:08:00).
+![Alt text](image-6.png)
+
+- `^` = quer dizer que quer começar a leitura dessa código do começo da linha.
+- `.` = que quer avaliar todos os caracteres do código.
+- `+` = que quer verificar os caracteres uma ou mais de uma vez.
+- `@` = que está procurando o caracter @ nessa string.
+-`\` = usado para escapar das funções do caracter e prcurar por um caracter de ponto.
+- `$` = fim da linha.
+
+Podemos dividir as **Regular expressions** em duas partes, as `identifiers` e as `qualitiers`.
