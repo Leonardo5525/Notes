@@ -1,0 +1,13 @@
+# Intro to Classes
+`Methods` é a mesma coisa que uma `Function`, mas nesse caso está associado a uma função.
+
+Uma classe descreve que propriedades um objeto deve ter e quais propriedades também 
+
+- **`Properties`:** são as propriedades do trem, as coisas que o descrevem, suas qualidades e aspctos.
+
+- **`Methods`:** são as funções do item, as ações o que podem fazer. 
+
+- A classe cria uma blueprint(esquema) que irá descrever o objeto suas propriedades e métodos, sendo sempre os mesmos requisitos podendo ter valores difeentes.
+Ex.: ![Alt text](image-1.png)
+
+
