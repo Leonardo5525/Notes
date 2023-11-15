@@ -106,4 +106,31 @@ Oque fazem e representam (aula: 7:08:00).
 -`\` = usado para escapar das funções do caracter e prcurar por um caracter de ponto.
 - `$` = fim da linha.
 
-Podemos dividir as **Regular expressions** em duas partes, as `identifiers` e as `qualitiers`.
+
+### Identifiers adn Qualifires
+Podemos dividir as **Regular expressions** em duas partes, as `identifiers` e as `qualifiers`.
+
+![Alt text](image-7.png)
+- Primeiro se adiciona o caracter que deseja procurar;
+- Nesses exemplos procurou-se primeiramente por um caracter só e depois por uma palavra.
+- Ele é case sensitive.
+
+<br>
+
+![Alt text](image-8.png)
+- Outro jeito de utilizar RegEx, irá procurar pelo caracter dentro das barras `/FavoritE/` (como no exemplo).
+
+<br>
+
+![Alt text](image-9.png)
+
+Pode se procurar por:
+- `[\w]` = todos números e letros , alfanumérico;
+- `[A-Z]`;
+- `[a-z]`;
+- `[0-9]` ou `[\d]`(todos os números);
+- E até espaços `[ ]` ou `[\s]`;
+- `[Code | steak]` =  code ou steak
+
+![Alt text](image-10.png)
+- Nesse busca e mostra exatamente o caracter em lowercase que encontra na variável. É ' m 'pois começa a avaliar desde o começo.
