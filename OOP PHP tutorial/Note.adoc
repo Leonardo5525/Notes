@@ -8,6 +8,6 @@ Uma classe descreve que propriedades um objeto deve ter e quais propriedades tam
 - **`Methods`:** são as funções do item, as ações o que podem fazer. 
 
 - A classe cria uma blueprint(esquema) que irá descrever o objeto suas propriedades e métodos, sendo sempre os mesmos requisitos podendo ter valores difeentes.
-Ex.: ![Alt text](image-1.png)
+Ex.: image::sunset.jpg[![Alt text](image-1.png)] 
 
 
