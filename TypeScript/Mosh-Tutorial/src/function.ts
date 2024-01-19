@@ -1,0 +1,1 @@
+// Como boas práticas sempre predefine suas funções, parâmetros e os tipos de retornos. E habilite as 3 opções no tsconfig.json noUNsedLocals, noUnusedParameters e noImplicitReturns
