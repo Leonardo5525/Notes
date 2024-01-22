@@ -10,8 +10,8 @@ import { Todo } from './todo';
 export class AppComponent {
   title = 'Projeto youtube-ang';
 
-  todoValue:string;
-  list:Todo[];
+  todoValue:string = '';
+  list:Todo[] = [];
 
   ngOninit(){
     this.list = [];
