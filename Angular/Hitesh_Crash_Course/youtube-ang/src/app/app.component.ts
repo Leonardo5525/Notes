@@ -10,5 +10,26 @@ import { Todo } from './todo';
 export class AppComponent {
   title = 'Projeto youtube-ang';
 
+  todoValue:string;
+  list:Todo[];
 
+  ngOninit(){
+    this.list = [];
+    this.todoValue = "";
+  }
+  addItem(){
+    if (this.todoValue !=="") {
+      const newItem: Todo = {
+        id:Date.now(),
+        value: this.todoValue,
+        isDone: false
+      };
+      this.list.push(newItem);
+    }
+    this.todoValue = "";
+  }
+
+  deleteItem(id: number){
+    this.list = this.list.filter(item => item.id !== id);
+  }
 }
